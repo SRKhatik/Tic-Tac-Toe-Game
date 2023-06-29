@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.Square {
+  cursor: pointer;
+  justify-content: space-evenly;
+  display: flex;
+  background-color: rgb(12, 136, 136);
+  border: none;
+  border-radius: 10%;
+  box-shadow: 0px 4px 8px #050505;
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  font-size: 3em;
+  font-family: "Fredoka", sans-serif;
+  font-weight: bold;
+  line-height: 5rem;
+  margin: 0.5rem;
+}
+.Square:hover {
+  background-color: orangered;
+  box-shadow: #dceb0c;
+}
+button {
+  text-align: center;
+  background-color: #21eb1b;
+  border: none;
+  border-radius: 10%;
+  box-shadow: 0px 4px 8px #050505;
+  font-size: 18px;
+  margin: 2rem;
+  cursor: pointer;
+  padding: 0.7rem;
+
+}
+
+button:hover {
+  opacity: 1;
+  background-color: rgb(252, 25, 9);
+}
